@@ -85,10 +85,10 @@ Dynamic Analysis Findings
                      * Reads a wide array of registry keys.
 
                      * All program modules have timestomped metadata.
-                     *                      * Modifies onedrive files, unable to analyze further due to sample being inert (spoken of earlier in paper).
+                     * Modifies onedrive files, unable to analyze further due to sample being inert (spoken of earlier in paper).
 
                      * Observed C2 endpoint IPv4 address: 64.44.154.197 (hosted by Nexeon Technologies as of 08/06/25).
-                     *                      * Tasks added to task scheduler relating to onedrive, confirmed unrelated to normal operating system functions.
+                     * Tasks added to task scheduler relating to onedrive, confirmed unrelated to normal operating system functions.
 
 
 
@@ -123,47 +123,14 @@ The following section contains information related to the removal of the malware
                            * After discovery of compromise by this malware, the infected machine should be IMMEDIATELY disconnected from all networks.
                            * Full disk format/secure erase all disks connected to the infected device, re-install operating system from a trusted source.  DO NOT DO AN IN PLACE UPGRADE/REINSTALL.
                            * If other removal tips can not be done, modify the hosts file so that any DNS queries for the malware’s C2 domain resolve to an inert address.
-                           *                            * If the C2 domain is no longer registered/active, the malicious code will not execute successfully.  (no longer registered as of 8/17/25)
-________________
-
-
-Images
-  
-
-Timestomping
-
-
-  
-
-Agentid generation snippet
-
-
-  
-
-Use of bcrypt.dll and other important .dll files
-  
-
-Anti debugging instructions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                           * If the C2 domain is no longer registered/active, the malicious code will not execute successfully.  (no longer registered as of 8/17/25)
 ________________
 Hashes
                            * SHA256          9B9689ADEF78ADF5AEA081699F229F5189DD90BDA174348DF5BF6FB36B91F852 (fastSMB.zip)
 
 
                            * SHA256          EF9E28020A5111E96A51BA41590D6F7586E639108CDD18262548216C0F605B9E (smb.dll)
+
 
 
                            * SHA256          48A2F1A71ED64B59625AF67C404EBB7414C5B095A3AACB45E9B962342C211FAA (smb.exe)
