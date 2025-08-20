@@ -1,4 +1,4 @@
-This is a repo for my writeup on a novel malware sample going under the name fastSMB.  This malware was initially uploaded to GitHub disguised as a tool for brute-forcing SMB credentials/finding known vulnerabilities with SMB.
+This is a repo for my writeup on a novel RAT going under the name fastSMB.  This malware was initially uploaded to GitHub disguised as a tool for brute-forcing SMB credentials/finding known vulnerabilities with SMB.
 After thorough analysis, I dismantled the sample’s C2 channel by escalating to the hosting provider and IC3, resulting in takedown of the infrastructure.
 
 Additional Info:
